@@ -1,0 +1,9 @@
+rm *.o
+
+gcc -c MathProblems.cpp
+
+g++ -c MathGame.cpp
+
+g++ -o Game MathGame.o MathProblems.o 
+
+
